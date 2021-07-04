@@ -1,4 +1,4 @@
-Program to generate hashes of string data using algorithms from Hashlib
+# Program to generate hashes of string data using algorithms from Hashlib
 import hashlib
 txt = input("enter text :")
 result1 = hashlib.md5(txt.encode())
